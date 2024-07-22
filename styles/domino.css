@@ -1,0 +1,100 @@
+.domino {
+  width: 50px;
+  aspect-ratio: 1/2;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 2rem;
+  position: relative;
+  box-shadow: 0 0 2px black inset;
+}
+
+.divider {
+  width: 86%;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  left: 7%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 3px;
+}
+
+.position-one {
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: absolute;
+}
+
+.position-two {
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  bottom: 0;
+}
+
+.container {
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
+  /* background-color: greenyellow; */
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  height: 15%;
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translateY(-50%);
+  width: 15%;
+  height: 15%;
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  transform: translateY(-50%);
+  width: 15%;
+  height: 15%;
+}
+
+.top-left {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  width: 15%;
+  height: 15%;
+}
+
+.top-right {
+  position: absolute;
+  top: 12%;
+  right: 12%;
+  width: 15%;
+  height: 15%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 12%;
+  left: 12%;
+  width: 15%;
+  height: 15%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 12%;
+  right: 12%;
+  width: 15%;
+  height: 15%;
+}
